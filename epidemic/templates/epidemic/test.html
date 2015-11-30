@@ -1,0 +1,21 @@
+{% extends 'epidemic/base.html' %}
+
+{% load staticfiles %}
+
+{% block body_block %}
+
+    <h1>first off...</h1>
+    <body>
+        <h1>Rudy says...</h1>
+        <strong>{{ boldmessage }}</strong><br />
+        <a href="/epidemic/about/">About</a><br />
+        <img src="{% static 'epidemic/images/Rudy Gilman_headshot.jpg' %}" alt="rudy" /> <!-- New line -->
+    </body>
+    
+    
+    <div>
+    <a href="https://plot.ly/~reddlee/587/" target="_blank" title="Outcomes by Strategy" style="display: block; text-align: center;"><img src="https://plot.ly/~reddlee/587.png" alt="Outcomes by Strategy" style="max-width: 100%;width: 600px;"  width="600" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
+    <script data-plotly="reddlee:587"  src="https://plot.ly/embed.js" async></script>
+    </div>
+
+{% endblock %}

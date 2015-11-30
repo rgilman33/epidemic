@@ -1,0 +1,15 @@
+{% extends 'epidemic/base.html' %}
+
+{% load staticfiles %}
+
+{% block body_block %}
+
+    <h1>first off...</h1>
+    <body>
+        <h1>Rudy says...</h1>
+        <strong>{{ boldmessage }}</strong><br />
+        <a href="/epidemic/about/">About</a><br />
+        <img src="{% static 'epidemic/images/Rudy Gilman_headshot.jpg' %}" alt="rudy" /> <!-- New line -->
+    </body>
+    
+{% endblock %}

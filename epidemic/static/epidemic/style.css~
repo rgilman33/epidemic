@@ -1,0 +1,11 @@
+li a {
+    color: green;
+}
+
+h1 {
+    color: #FF0000
+}
+    
+body {
+    background: white url('epidemic/images/Rudy Gilman_headshot.jpg') no-repeat right bottom;
+}
