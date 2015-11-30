@@ -17,9 +17,13 @@ def index(request):
 def test(request):
     context_dict = {'boldmessage': "STILL 4EVER BOLD"}
     return render(request, 'epidemic/test.html', context_dict)
-def carousel(request):
-    context_dict = {'boldmessage': "STILL 4EVER BOLD"}
-    return render(request, 'epidemic/carousel.html', context_dict)
     
+def model_description(request):
+    context_dict = {'boldmessage': "STILL 4EVER BOLD"}
+    return render(request, 'epidemic/model_description.html', context_dict)
+    
+def dashboard(request):
+    context_dict = {'boldmessage': "STILL 4EVER BOLD"}
+    return render(request, 'epidemic/dashboard.html', context_dict)
 def about(request):
     return HttpResponse("best epidemic model ever. period.")

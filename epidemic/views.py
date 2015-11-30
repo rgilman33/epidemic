@@ -14,12 +14,13 @@ def index(request):
 
     return render(request, 'epidemic/index.html', context_dict)
     
-def test(request):
+def code(request):
     context_dict = {'boldmessage': "STILL 4EVER BOLD"}
-    return render(request, 'epidemic/test.html', context_dict)
-def carousel(request):
+    return render(request, 'epidemic/code.html', context_dict)
+    
+def model_description(request):
     context_dict = {'boldmessage': "STILL 4EVER BOLD"}
-    return render(request, 'epidemic/carousel.html', context_dict)
+    return render(request, 'epidemic/model_description.html', context_dict)
     
 def dashboard(request):
     context_dict = {'boldmessage': "STILL 4EVER BOLD"}

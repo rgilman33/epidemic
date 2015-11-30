@@ -5,6 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    
+    
+    <!-- for including python code -->
+    
+    <script type="text/javascript" src="http://alexgorbatchev.com/pub/sh/3.0.83/scripts/shCore.js"></script>
+    <script type="text/javascript" src="http://alexgorbatchev.com/pub/sh/3.0.83/scripts/shBrushPython.js"></script> <script type="text/javascript" src="http://alexgorbatchev.com/pub/sh/3.0.83/scripts/shLegacy.js"></script>
+    <link type="text/css" rel="stylesheet" href="http://alexgorbatchev.com/pub/sh/3.0.83/styles/shCore.css" />
+    <link type="text/css" rel="stylesheet" href="http://alexgorbatchev.com/pub/sh/3.0.83/styles/shThemeDefault.css" />     <script language="javascript">
+    window.onload = function () {
+        dp.SyntaxHighlighter.ClipboardSwf = 'http://alexgorbatchev.com/pub/sh/3.0.83/scripts/clipboard.swf';
+        dp.SyntaxHighlighter.HighlightAll('code');
+        dp.SyntaxHighlighter.BloggerMode();
+    }
+    </script>
+    
     <meta name="description" content="">
     <meta name="author" content="">
     <link rel="icon" href="http://getbootstrap.com/favicon.ico">
@@ -86,13 +101,22 @@
         
           <div class="blog-post">
             <h2 class="blog-post-title">Smallpox Epidemic</h2>
-            <p>Lets start with this badass 3d scatterplot. Toggle it around a little bit, you'll love it. </p>
+            
             <p>This is a really serious model about shit hitting the fan following a bioterrorist attack. There are awesome 3d graphs, histograms, and a whole host of barely substantiated conclusions</p>
+            
+            <pre class="brush: python" name="code">
+            
+            from django.conf.urls import url
+            
+            </pre>
+            
+            
+            <p>Lets start with this badass 3d scatterplot. Toggle it around a little bit, it feels good.</p>
             <div>
                 <a href="https://plot.ly/~reddlee/587/" target="_blank" title="Outcomes by Strategy" style="display: block; text-align: center;"><img src="https://plot.ly/~reddlee/587.png" alt="Outcomes by Strategy" style="max-width: 100%;width: 600px;"  width="600" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
                 <script data-plotly="reddlee:587"  src="https://plot.ly/embed.js" async></script>
             </div>
-
+            <p>Look how many people die with no intervention!!</p>
             <hr>
             
             <blockquote>

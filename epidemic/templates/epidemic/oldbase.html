@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+
+{% load staticfiles %}
+
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="{% static 'epidemic/style.css' %}" />
+        <title>epidemic - {% block title %}some default title{% endblock %}
+        </title>
+        <div>
+            <ul>
+                <li><a href="/epidemic/about/">About</a></li>
+                <li><a href="/epidemic/test/">Test</a></li>
+                <li><a href="/epidemic/">Home</a></li>
+            </ul>
+        </div>
+    </head>
+    <hr />
+
+    <body>
+        <div>
+            {% block body_block %}some default body{% endblock %}
+        </div>
+
+        <hr />
+
+    </body>
+</html>
